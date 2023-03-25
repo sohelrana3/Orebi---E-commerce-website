@@ -37,6 +37,13 @@ const Singup = () => {
                 <Inputbox as='input' title='Region/State' placeholder="Please select" />
             </div>
         </div>
+        <div className='mt-5 sm:mt-7 md:mt-10 lg:mt-14 border-b border-[#F0F0F0] pb-5 sm:pb-7 md:pb-10 lg:pb-16'>
+            <Headding title='Your Password' /> 
+            <div className='md:flex w-full lg:w-3/4 gap-x-10'>
+                <Inputbox as='input' title='Password' placeholder="Password" />
+                <Inputbox as='input' title='Repeat Password' placeholder="Repeat Password" />
+            </div>
+        </div>
     </Container>
   )
 }
