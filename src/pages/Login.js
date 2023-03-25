@@ -21,6 +21,13 @@ const Login = () => {
             <div className='mt-7'>
                 <Button title='Login' />
             </div>
+            <div className='mt-32'>
+                <Headding title='New Customer' /> 
+                <p className='w-1/3 text-[#767676] font-dm font-normal text-sm'>Lorem Ipsum is simply dummy  the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+                <div className='mt-12'>
+                    <Button title='Continue' />
+                </div>
+            </div>
         </div>
     </Container>
   )
