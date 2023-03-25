@@ -74,7 +74,7 @@ const Header = () => {
                     <RxTriangleDown />
                     {User && ( 
                       <List className='absolute top-9 right-0 bg-white w-[263px]'>
-                        <Listitem className='font-dm text-sm font-normal py-4 px-5 text-[#767676] text-center border-b border-solid border-[#f0f0f0] hover:text-white  hover:bg-[#262626]' listitem="My Account" />
+                        <Listitem href='login' className='font-dm text-sm font-normal py-4 px-5 text-[#767676] text-center border-b border-solid border-[#f0f0f0] hover:text-white  hover:bg-[#262626]' listitem="My Account" />
                         <Listitem className='font-dm text-sm font-normal py-4 px-5 text-[#767676] text-center border-b border-solid border-[#f0f0f0] hover:text-white hover:bg-[#262626]' listitem="Log Out" />                   
                       </List>
                     )}
