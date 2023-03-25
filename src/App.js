@@ -11,6 +11,7 @@ import Contract from "./pages/Contract";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Shop from "./pages/Shop";
+import Singup from "./pages/Singup";
 
 let route = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +21,7 @@ let route = createBrowserRouter(
       <Route path="/About" element={<About/>}></Route>
       <Route path="/Contract" element={<Contract/>}></Route>
       <Route path="/login" element={<Login/>}></Route>
+      <Route path="/singup" element={<Singup/>}></Route>
     </Route>
   )
 );
