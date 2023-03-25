@@ -2,6 +2,7 @@ import React from 'react'
 import Badcam from '../componet/Lyaouts/Badcam'
 import Button from '../componet/Lyaouts/Button'
 import Container from '../componet/Lyaouts/Container'
+import Headding from '../componet/Lyaouts/Headding'
 import Inputbox from '../componet/Lyaouts/Inputbox'
 
 const Contract = () => {
@@ -9,7 +10,7 @@ const Contract = () => {
     <Container>
         <Badcam />
         <div className='w-2/4'>
-          <h2 className='text-dm text-[39px] font-bold text-primary mb-10'>Fill Up a form</h2>
+          <Headding title='Fill Up a form' />
           <Inputbox as="input" placeholder="Your Name" title="Your name here"/>
           <Inputbox as="input" placeholder="Your Email" title="Your email here" />
           <Inputbox as="Textarea" rows="6" placeholder="Your message here" title="Message" />
