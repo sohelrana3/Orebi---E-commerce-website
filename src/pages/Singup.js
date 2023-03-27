@@ -3,6 +3,8 @@ import Badcam from '../componet/Lyaouts/Badcam'
 import Container from '../componet/Lyaouts/Container'
 import Inputbox from '../componet/Lyaouts/Inputbox'
 import Headding from '../componet/Lyaouts/Headding'
+import Formch from '../componet/Lyaouts/Formch'
+import Button from '../componet/Lyaouts/Button'
 
 const Singup = () => {
   return (
@@ -43,6 +45,20 @@ const Singup = () => {
                 <Inputbox as='input' title='Password' placeholder="Password" />
                 <Inputbox as='input' title='Repeat Password' placeholder="Repeat Password" />
             </div>
+        </div>
+        <div className='flex gap-x-2.5 mt-16'>
+        <input type="checkbox"/>
+        <p>I have read and agree to the Privacy Policy</p>
+        </div>
+        <div className='flex  gap-x-9 mt-9'>
+            <p>
+                Subscribe Newsletter
+            </p>
+            <Formch title='Yes' />
+            <Formch title='No' />
+        </div>
+        <div className='mt-7'>
+            <Button title='Login' />
         </div>
     </Container>
   )
