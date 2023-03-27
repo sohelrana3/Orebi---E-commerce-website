@@ -3,8 +3,8 @@ import React from 'react'
 const Formch = ({title}) => {
   return (
     <>
-         <input type="checkbox"/>
-    <p>{title}</p>
+        <input type="radio" id="css" name="fav_language" value="CSS" />
+        <p>{title}</p>
     </>
   )
 }
