@@ -12,6 +12,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Shop from "./pages/Shop";
 import Singup from "./pages/Singup";
+import Account from "./pages/Account";
 
 let route = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +23,7 @@ let route = createBrowserRouter(
       <Route path="/Contract" element={<Contract/>}></Route>
       <Route path="/login" element={<Login/>}></Route>
       <Route path="/singup" element={<Singup/>}></Route>
+      <Route path="/account" element={<Account/>}></Route>
     </Route>
   )
 );
