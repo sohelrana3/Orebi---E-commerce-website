@@ -1,5 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import Container from './Container';
 import Images from './Images';
 
@@ -15,10 +17,10 @@ const Banner3 = () => {
        <Container>
        <Slider {...settings}>
             <div>
-                <Images imgsre='Images/banner2.png' />
+              <h2>fff</h2>
             </div>
             <div>
-                <Images imgsre='Images/Banner.png' />
+                <h2>fff</h2>
             </div>  
         </Slider>
        </Container>
